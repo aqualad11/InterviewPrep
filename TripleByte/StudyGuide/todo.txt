@@ -2,3 +2,7 @@ Feedback TODO:
 1. Practice leetcode/hackerrank
 2. Read/practice using python's collection objects
 3. Read Google style guide for python
+4. Install and use pylint
+5. Do SQL tutorial(http://email.triplebyte.com/c/eJxFj8FugzAMhp-G3IqcEAgccugmIe2wy14AmcSUUJpQMKr69qPrYZJlWf9_-D7TDcPc8XMhu9JEjsmLYBUoACkBGnmcuczbyigpW_isjlAVH5kGXsMyU_9kyl26idFipeQgoSBldFOTAwCHksq6Hrxyygh6s9KVoi1ro8u-L6AeSkVuML7x4HuNepCom0LMdmRetqw4Z6o95vF45LxzWgPO25JC5Bf2KLb7_N6n-x7c9XTZg6d85JtY7ZQi8ogRN0fRhZRPeJhfXh5_0vz_9EoLceCQYufSHtmCcBh98MjU7et8pafFn3b6rr6Et8boSuIvT5hnjA)
+6. Go over HTTP fundamentals; both vong and this link. (http://email.triplebyte.com/c/eJxFjz1uhTAQhE-DuyDbGAyFiyQSUoo0uQBa7OVhfmxklkjcPn5JEWmKmdFK8y3u4LeB7gNNwgUtoWPeSC45F4LzTmRbirJvtBSi5-9NLmX1VihOyR8bjjdhaePOZqMm1bZOOd5qqZUS0yQrPXLbidxVUDP824orBlO3WtXjWPF2qiXaSbvOcTcqUJMA1VVsMzPRcRbVayH7rIen-RqfUzmssCcIMO_oTszZ4Tdu8cD0kiK4HQ6WzBID0JyvTovB-lgukKkfT4ZfYPp_OOGB5MnHMNh4BTKcWQjOOyAcrrSteBv46pfP5oM5o7VqBPwATVJlpA)
+7. Go over algorithms and data structures.

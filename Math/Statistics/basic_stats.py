@@ -78,7 +78,7 @@ def main():
     # Standard Deviation
     open_pop_std = pop_std_dev(open_data)
     open_sample_std = sample_std_dev(open_data)
-    close_pop_std = pop_std_dev(closed_data)
+    closed_pop_std = pop_std_dev(closed_data)
     closed_sample_std = sample_std_dev(closed_data)
 
     # Variance
@@ -86,5 +86,17 @@ def main():
     open_sample_var = sample_variance(open_data)
     closed_pop_var = pop_variance(closed_data)
     closed_sample_var = sample_variance(closed_data)
+    
+    # Print data
+    print('Mean for open data ' + str(open_mean))
+    print('Mean for closed data ' + str(closed_mean))
+    print('Population standard deviation for open data ' + str(open_pop_std))
+    print('Sample standard deviation for open data ' + str(open_sample_std))
+    print('Population standard deviation for closed data ' + str(closed_pop_std))
+    print('Sample standard deviation for closed data ' + str(closed_sample_std))
+    print('Population variance for open data ' + str(open_pop_var))
+    print('Sample variance for open data ' + str(open_sample_var))
+    print('Population  variance for closed data ' + str(closed_pop_var))
+    print('Sample variance for closed data ' + str(closed_sample_var))
 
 main()
