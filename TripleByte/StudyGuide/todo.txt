@@ -1,0 +1,4 @@
+Feedback TODO: 
+1. Practice leetcode/hackerrank
+2. Read/practice using python's collection objects
+3. Read Google style guide for python
