@@ -1,0 +1,52 @@
+SQL - Structured Query Language
+
+SQL Commands:
+	DDL - Data Definition Language
+		CREATE - creates a new table, a biew of a table, or other object in the database
+		ALTER - modifies an existing database objects, such as a table
+		DROP - Deletes an entire table, a view of a table, or other objects in the database
+
+	DML - Data Manipulation Language
+		SELECT - retrieves certain records from one or more tables
+		INSERT - Creates a new record
+		UPDATE - modies records
+		DELETE - Deletes records
+
+	DCL - Data Control Language
+		GRANT - gives a privilege to a user
+		REVOKE - takes back privileges granted from user
+
+What is RDBMS?
+	Relational Database Management System
+		- is the basis for SQL
+		- MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access
+
+What is a Table?
+	The data in an RDBMS is stored in database objects which are called tables
+	+----+----------+-----+-----------+----------+
+	| ID | NAME     | AGE | ADDRESS   | SALARY   |
+	+----+----------+-----+-----------+----------+
+	|  1 | Ramesh   |  32 | Ahmedabad |  2000.00 |
+	|  2 | Khilan   |  25 | Delhi     |  1500.00 |
+	|  3 | kaushik  |  23 | Kota      |  2000.00 |
+	|  4 | Chaitali |  25 | Mumbai    |  6500.00 |
+	|  5 | Hardik   |  27 | Bhopal    |  8500.00 |
+	|  6 | Komal    |  22 | MP        |  4500.00 |
+	|  7 | Muffy    |  24 | Indore    | 10000.00 |
+	+----+----------+-----+-----------+----------+
+
+SQL Constraints
+	Constraints are the rules enforced on data columns on a table. These are used to limit the type of data that can go in to a table. This ensures the accuracy and reliability of the data in the database
+	Most common contraints:
+		- NOT NULL Constraint - ensures that column cannot have a NULL value
+		- DEFAULT Constraint - Provides a default value for a column when none is specified
+		- UNIQUE Constraint - Ensures that all the values in a column are different
+		- PRIMARY Key - Uniquely identifies a row/record in a database table
+		- FOREIGN Key - Uniquely identifies a row/recprd in another database table
+		- CHECK Constraint - The CHECK constraint ensures that all values in a column satisfy certain conditions
+		- INDEX - Used to create and retrieve data from the database very quickly
+
+Data Integrity
+	Entity Integrity - There are no duplicate rows in a table
+	Domain Integrity - Enforces valid entries for a given column by restricting the type, the format, or the range of values
+	Referen
